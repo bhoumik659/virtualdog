@@ -54,7 +54,7 @@ function draw() {
     text("Last Fed: "+ lastFed %12 + "PM",310,30 )
   }
   else if(lastFed === 0){
-    text("Last Fed 12AM ", 310,30)
+    text("Last Fed: 12AM ", 310,30)
   }
   else{
     text("Last Fed:   " + lastFed + "AM",310,30)
